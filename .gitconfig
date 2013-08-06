@@ -1,0 +1,12 @@
+[user]
+    name = Nitin Munjal
+    email = nitin.munjal@gmail.com
+[core]
+    editor = vim
+[merge]
+    tool = vimdiff
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto

@@ -187,6 +187,10 @@ alias md='mkdir'
 alias cl='clear'
 alias du='du -ch --max-depth=1'
 alias treeacl='tree -A -C -L 2'
+type python-pip > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    alias pip='python-pip'
+fi
 
 # 2.3) Text and editor commands
 alias em='emacs -nw'     # No X11 windows
