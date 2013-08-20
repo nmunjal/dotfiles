@@ -216,5 +216,7 @@ command -v rlwrap >/dev/null 2>&1 || { echo >&2 "Install rlwrap to use node: sud
 ## -- 3) User-customized code  --
 ## ------------------------------
 
+# 3.1) Avoid duplicates in bash history
+export HISTCONTROL=erasedups:ignoredups
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
